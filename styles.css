@@ -1,0 +1,48 @@
+body {
+  
+    background-color:#969696 ;
+    text-align: center;
+    
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+ 
+}
+
+.age{
+font-weight:100;
+font-style: normal;
+}
+
+
+.top {
+    padding-top: 150px;
+    border:solid;
+    margin: 100px 450px 0px;
+    background-color:#19a2ae;  
+    text-align: center; 
+    width: 30%;
+}
+
+.bottom {
+    padding-top: 150px;
+    border:solid;   
+    margin:0 450px 0 450px;
+    background-color: darkgray;
+    width: 30%;
+}
+
+P{
+    padding-inline-start: 5%;
+    margin: 0;
+    width: 30%;
+}
+/*
+img {
+    border-radius: 50%;
+    margin: auto;
+    width: 10%;
+}*/
+

@@ -1,0 +1,22 @@
+body {
+    background-color:#008b8b ;
+    margin: 0;
+    text-align: center;
+}
+
+.top {
+    background-color:#008b8b ;
+    margin: 0;
+    text-align: center;
+    width: 30%;
+}
+
+img {
+    margin: auto;
+    width: 30%;
+}
+
+.bottom {
+   background-color: darkgray;
+    width: 30%;
+}
