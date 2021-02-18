@@ -1,20 +1,25 @@
-body {  
+body {     
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;  
     border: solid; 
-    height: 100vh; 
+    height: 100vh;
+
 }
 
 .main {
+    
     background-color: white;
     width: 350px;
     border-radius: 20px;    
     margin: 10% auto 10% auto;
+    
+    
+  
 }
 
 h3 {   
-    padding-top: 75px;
+    padding-top: 30%;
     margin: 0;
     text-align: center;
  }
@@ -44,16 +49,20 @@ padding-left: 5%;
 }
 
 .top {  
-
+    overflow: hidden;
 }
 
 .topimg {  
     border-radius: 20px 20px 0 0 ;
+    
 }
 
 .middle {
     width: 350px;
-    margin: auto;  
+    margin: auto; 
+    overflow:hiden;
+    
+     
 }
 
 .bottom {  
@@ -62,6 +71,7 @@ padding-left: 5%;
     background-color:white;
     width: 350px;
     border-radius: 0 0 20px 20px;
+    position: sticky;
 }
 
 .stat {
@@ -90,9 +100,36 @@ padding-left: 5%;
     background-color: white;
     padding:5px;
     bottom: 50px;
-    position: absolute;
+    position:absolute;
     right: 45%;
     left: 46%;
     top:35%;
     border-radius: 50%;
+}
+
+.backimg{
+    
+    position: absolute;
+    overflow:hiden;
+}
+.topsvg{
+    height: 135vh;
+    width:1000px;   
+    padding-right: 200px;
+    float: left;
+    position:absolute;
+    left: -350px;
+    bottom: -420px;
+    
+}
+
+.bottomsvg{
+    padding-left: 700px;
+    padding-top:300px;
+    height: 120vh;
+    width:900px;
+    float: right;
+    position: absolute;
+    
+    
 }
